@@ -87,6 +87,8 @@ audioLoader.load( 'assets/song.mp3', function( buffer ){
     sound.setLoop( true )
     sound.setVolume( 0.5 )
     sound.play()
+    sound.autoplay( true )
+    sound.hasPlaybackControl( true )
 })
 
 const color = 0xFFFFFF;
